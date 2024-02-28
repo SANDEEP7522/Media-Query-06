@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment Task 2</title>
+    <style>
+   
+        .container{
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: space-between;    
+           
+        }
+        .container img{
+            width: 50px;
+            height: 200px; margin: 8px;
+        }
+       
+        @media screen and (max-width: 800px) {
+           .container img{
+            width: 45%;
+
+               }            
+        }
+        @media screen and (max-width: 500px) {
+           .container  img{
+            width: 100%;
+               }            
+        }
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYreoW7ytJVvnstnaSyB1N0IVPud4kbEKGtQ&usqp=CAU" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvr0GVqEEKDX63hL7LOD7jz7-PnW0MZdsEKQ&usqp=CAU" alt="">
+         <img  src="https://upload.wikimedia.org/wikipedia/commons/6/62/Natural_Beauty_of_BD.jpg" alt="">
+    </div>
+</body>
+</html>

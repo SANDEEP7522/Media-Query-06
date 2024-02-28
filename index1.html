@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Media Query Assignment</title>
+    <style>
+        .header{
+            padding: 20px;
+            text-align: center;
+            background-color: #fff00;
+        }
+        @media  screen and (max-width: 600px) {
+            header{
+                background-color: red;
+            }
+        }
+        @media  screen and (min-width: 500px) {
+            header{
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+   <header class="header">Responsive Header</header>
+   <main class="main">Main Containt</main> 
+   <section class="section">Section</section>
+   <footer class="footer">Footer</footer>
+</body>
+</html>

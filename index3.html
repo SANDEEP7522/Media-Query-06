@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment Task 3</title>
+   <style>
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: black; 
+    }
+    .container a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    @media screen and (max-width: 768px) {
+        .navbar{
+            flex-direction: column;
+            background-color: gray;
+            align-items: center;
+        }
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Int</a>
+            <a href="#">Phone</a>
+            <a href="#">Contant</a>
+            <a href="#">About</a>
+
+        </nav>
+    </div>
+    
+</body>
+</html>
